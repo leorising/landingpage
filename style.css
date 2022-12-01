@@ -31,13 +31,15 @@ h2.website {
 }
 
 .div1, .callcontainer {
-    background-color:#3882f6 ;
     display: flex;
     gap: 64px;
     justify-content: center;
     align-items: center;
 }
+
+
 .div2, .callcontainer2 {
+
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -48,9 +50,6 @@ h2.website {
     gap: 16px;
 }
 
-.text{
-    align-items: center;
-}
 
 .link {
     list-style: none;
@@ -112,8 +111,13 @@ h2.website {
     align-items: center;
 }
 
+.callcontainer {
+    background-color:#3882f6 
+}
+
 div.callcontainer {
     justify-content: center;
+    margin: 100px;
 }
 
 footer {
